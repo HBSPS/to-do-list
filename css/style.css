@@ -1,0 +1,121 @@
+.hidden {
+  display: none;
+}
+
+body {
+  color: black;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 20px;
+  height: 90vh;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+#login-form input[type="text"] {
+  border: none;
+  border-bottom: 3px solid black;
+  background: none;
+  text-align: center;
+  width: 30%;
+  font-size: 30px;
+  color: black;
+}
+
+#login-form input[type="text"]:focus {
+  outline: none;
+}
+
+#login-form input[type="submit"] {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  border: 3px solid black;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: color 0.3s linear;
+  transition: background-color 0.3s linear;
+}
+
+#login-form input[type="submit"]:hover {
+  background-color: black;
+  color: white;
+}
+
+#clock {
+  font-size: 150px;
+  font-weight: bold;
+  border-bottom: 8px solid black;
+  margin-bottom: 0;
+}
+
+#greeting {
+  margin-top: 0;
+  font-size: 75px;
+  font-weight: bold;
+}
+
+#todo-form input {
+  margin-top: 50px;
+  width: 50%;
+  border: none;
+  border-bottom: 3px solid black;
+  text-align: center;
+  font-size: 30px;
+  background: none;
+}
+
+#todo-form input:focus {
+  outline: none;
+}
+
+#todo-list {
+  list-style: none;
+  height: 25%;
+  overflow: auto;
+}
+
+#todo-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#todo-list li button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+#quote span {
+  display: block;
+  padding: 10px 0px;
+}
+
+#weather {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  font-size: 20px;
+}
